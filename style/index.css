@@ -53,8 +53,9 @@ h2{
 }
 nav a{
     text-decoration: none;
-    width:5%;
+    width:8%;
     border: 2px groove white;
+    text-align: center;
 }
  nav a:hover{
     background-color: white;
@@ -67,17 +68,18 @@ nav a{
 
 #imgtxt img{
     width: 50%;
-    border: 2px ridge white;
+
 
 }
 #imgtxt p{
     font-size: 1.5rem;
-    padding: 100px;
+    padding: 10%;
 }
 #imgtxt {
     display: flex;
     align-items: center;
     flex-direction: row-reverse;
+    border: 2px ridge white;
 }
 .vg{
     display:flex;
@@ -99,6 +101,7 @@ footer{
     display: flex;
     justify-content: center;
     margin: 20px;
+    
    
     
 }
@@ -116,6 +119,36 @@ footer a:hover{
     justify-content: center;
 }
 
+@media only screen and (min-width:800px){
+    #imgtxt p{
+        line-height: 40pt;
+    }
+}
+
+@media only screen and (max-width:500px){
+
+nav a{
+
+    width:14%;
+
+}
+#imgtxt img{
+    padding-left: 10%;
+}
+#imgtxt{
+
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+footer a{
+    width: 14%;
+    
+}
+#imgtxt {
+
+    border: 0px solid white;
+
+}
 
 
 
@@ -123,3 +156,5 @@ footer a:hover{
 
 
 
+
+/*800px and 500px*/
