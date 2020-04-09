@@ -1,1 +1,118 @@
 /* Add CSS styling here */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+html, body, div, span, applet, object, iframe,  
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,  
+a, abbr, acronym, address, big, cite, code,  
+del, dfn, em, img, ins, kbd, q, s, samp,  
+small, strike, strong, sub, sup, tt, var,  
+b, u, i, center,  
+dl, dt, dd, ol, ul, li,  
+fieldset, form, label, legend,  
+table, caption, tbody, tfoot, thead, tr, th, td,  
+article, aside, canvas, details, embed,  
+figure, figcaption, footer, header, hgroup,  
+menu, nav, output, ruby, section, summary,  
+time, mark, audio, video {  
+margin: 0;  
+padding: 0;  
+/*border: 0;*/  
+font-size: 100%;  
+ 
+vertical-align: baseline;  
+}
+
+*{
+   
+    background-color: black;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+h1{
+    font-size: 3rem;
+}
+h2{
+    font-size: 2rem;
+    margin: 3px;
+}
+#topright{
+    margin: 3px;
+    
+
+}
+#topright nav{
+    display: flex;
+    justify-content: space-around;
+    
+}
+nav a{
+    text-decoration: none;
+    width:5%;
+    border: 2px groove white;
+}
+ nav a:hover{
+    background-color: white;
+    color:black;
+    border: hidden;
+}
+
+
+
+
+#imgtxt img{
+    width: 50%;
+    border: 2px ridge white;
+
+}
+#imgtxt p{
+    font-size: 1.5rem;
+    padding: 100px;
+}
+#imgtxt {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+.vg{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.vg div{
+    margin: 5px;
+    width: 25%;
+    text-align: center;
+    border: 2px ridge white;
+}
+.vg img{
+    width: 75%;
+    margin: 40px auto;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+   
+    
+}
+footer a{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    
+}
+footer a:hover{
+    width: 5%;
+    background-color: white;
+    color:black;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
