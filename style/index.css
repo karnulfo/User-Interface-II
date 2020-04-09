@@ -1,5 +1,9 @@
 /* Add CSS styling here */
+
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+
 html, body, div, span, applet, object, iframe,  
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,  
 a, abbr, acronym, address, big, cite, code,  
@@ -15,6 +19,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {  
 margin: 0;  
 padding: 0;  
+
 /*border: 0;*/  
 font-size: 100%;  
  
@@ -110,6 +115,8 @@ footer a:hover{
     display: flex;
     justify-content: center;
 }
+
+
 
 
 
